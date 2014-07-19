@@ -1,0 +1,22 @@
+{
+  "name": "console.star",
+  "version": "0.0.0",
+  "description": "Console.Star is a helper function to call console.log with stars pre/post-appended to the log",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TheIronDeveloper/console.star.git"
+  },
+  "keywords": [
+    "console.log"
+  ],
+  "author": "TheIronDeveloper",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/TheIronDeveloper/console.star/issues"
+  },
+  "homepage": "https://github.com/TheIronDeveloper/console.star"
+}
