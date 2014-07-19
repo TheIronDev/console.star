@@ -41,8 +41,8 @@ console.star = function() {
 	log.apply(this, arguments);
 
 	// Reset the count, post-log stars
-	lines = options.lines
+	lines = options.lines;
 	while(lines--){log.call(this, starString);}
-}
+};
 
 exports = console.star;

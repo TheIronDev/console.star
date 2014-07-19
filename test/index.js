@@ -6,10 +6,10 @@ describe('Calling console.star() ', function(){
 	// For testing purposes, we want to send consoleOutput directly to an array
 	console.gruntTest = function(consoleOutput) {
 		consoleResult.push(consoleOutput);
-	}
+	};
 	console.gruntTestAlt = function(consoleOutput) {
 		consoleResultAlt.push(consoleOutput);
-	}
+	};
 	var consoleResult = [],
 		consoleResultAlt = [],
 		starString = console.starOptions.starString;
