@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Console.star by TheIronDeveloper</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Console.star</h1>
+        <p>Provide a simple way to console.log with &quot;stars&quot; wrapping the console.</p>
+        <p class="view"><a href="https://github.com/TheIronDeveloper/console.star">View the Project on GitHub <small>TheIronDeveloper/console.star</small></a></p>
+        <ul>
+          <li><a href="https://github.com/TheIronDeveloper/console.star/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/TheIronDeveloper/console.star/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/TheIronDeveloper/console.star">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="consolestar" class="anchor" href="#consolestar" aria-hidden="true"><span class="octicon octicon-link"></span></a>Console.Star</h1>
+
+<p>Console.star is a helper function to call console.log with stars pre/post-appended to the log</p>
+
+<p>Install:</p>
+
+<pre><code>npm install console.star --save-dev
+</code></pre>
+
+<p>Usage:</p>
+
+<div class="highlight highlight-javascript"><pre><span class="pl-en">console</span>.star(<span class="pl-s1"><span class="pl-pds">'</span>Hello %s<span class="pl-pds">'</span></span>, <span class="pl-s1"><span class="pl-pds">'</span>World<span class="pl-pds">'</span></span>);
+
+<span class="pl-c">// Result:</span>
+<span class="pl-c">// ***************</span>
+<span class="pl-c">// ***************</span>
+<span class="pl-c">// Hello World</span>
+<span class="pl-c">// ***************</span>
+<span class="pl-c">// ***************</span></pre></div>
+
+<p>Updating Defaults:</p>
+
+<div class="highlight highlight-javascript"><pre><span class="pl-en">console</span>.starOptions <span class="pl-k">=</span> {
+    <span class="pl-s1"><span class="pl-pds">'</span>starString<span class="pl-pds">'</span></span><span class="pl-k">:</span> <span class="pl-s1"><span class="pl-pds">'</span>***************<span class="pl-pds">'</span></span>, <span class="pl-c">// Update the stars </span>
+    <span class="pl-s1"><span class="pl-pds">'</span>lines<span class="pl-pds">'</span></span><span class="pl-k">:</span> <span class="pl-c1">2</span>, <span class="pl-c">// Update the number of lines the stars appear</span>
+    <span class="pl-s1"><span class="pl-pds">'</span>logType<span class="pl-pds">'</span></span><span class="pl-k">:</span> <span class="pl-s1"><span class="pl-pds">'</span>log<span class="pl-pds">'</span></span> <span class="pl-c">// Update the console logger type (log, warn, error, etc.)</span>
+};</pre></div>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/TheIronDeveloper">TheIronDeveloper</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
